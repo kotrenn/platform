@@ -1,16 +1,23 @@
-This is a spatial platformer shooter.  To elaborate, the player
-controls an entity that can move around and shoot bullets at
-enemies in a similar fashion to platform games of the early 90's.
-In addition, there is a 3D element involved--the player can
-rotate the camera in two ways.  The first of which is to rotate
-the screen by 90 degrees, which alters gravity.  The second is
-to rotate the plane on which the player can move around in.
-Specifically, the player will be able to move along two different
-axes from before--if the player was moving in the x- and y-
-directions, they could now move in the x- and z- directions.
-This leads to an interesting experience for four levels.
+Timeline:  Fall 2012
 
+A 3-dimensional platforming game with multiple types of rotations and worlds to explore.
 
+===============================
+
+The main gimmick of the game is that it provides players with two forms of rotation.  The first allows players to rotate the screen by 90 degrees.  This allows players to reach previously inaccessible areas.  Additionally, gravity will change direction appropriately, which can be used strategically.  The second form of rotation allows the player to change the plane of movement.  Similar to the rotation system in Fez, this action will rotate the camera "around" the player, bringing the foreground and background into reach and vice versa.
+
+This project was originally prepared for a graduate course on computer graphics.  As a final project, we were assigned to create a computer game with 3D elements in OpenGL.  Having already developed some experience with game development, I decided to push myself.  SDL was incorporated with OpenGL to provide interfacing with the operating system, particularly with keyboard input.
+
+A simple level description format was included based on voxels.  Each level is simply a 3D rectangular box of different cubes, with opportunities for different cubes to have different textures.  The current sample levels utilize this by having different colored blocks for different areas as a visual aesthetic.  Additionally, the current levels (aside from the first) have matching Python scripts to generate them.  Each one had a different "theme" of style, and designing these by hand would have been impractical.
+
+Long-term plans:
+- Textures for different types of blocks such as grass
+- Octree or a custom data structure for compressed storage and access of level data
+- Network of worlds to explore
+- A level editor with controls similar to the Minecraft family of games
+- Scripting for creating complex portions of levels
+- Gameplay challenges which exploit the rotation system
+- Boss fights which exploit the rotation system
 
 --Gameplay--
 
@@ -34,47 +41,6 @@ invincible.  This also does not apply to enemies.
 
 Level 4 is also special in that exits will not appear until all
 of the enemies are destroyed.
-
-
-
---Technical Details--
-
-The game is written in C++ and uses the OpenGL and SDL libraries
-for rendering, input, and output.  A simple game loop
-architecture was used, with actors (entities) being updated every
-frame.  Collision detection was simplified by just having actors
-look at the nearby voxels (boxes) to check for collision, and if
-so, update as necessary.  No spatial structure was used on
-bullets--any actor checked for collisions with all bullets made
-by an enemy.  The bullet count was low enough for this to be
-manageable without a loss in performance.
-
-Levels were stored in a custom text format, with one character
-per block.  A header for levels denote what type each block was,
-with texture material specified.  Python scripts were used to
-generate three out of the four levels, by essentially "rendering"
-the level in ASCII (the custom level file).
-
-A configurable data file (data.txt) is used to store many of
-the game's constants.  This includes camera dimensions, gravity,
-player and enemy strength, and enabling of a couple "cheats."
-
-Some tricks were used to render only the few blocks in front of
-the player.  Specifics can be found in layout.cpp under
-Layout::draw().
-
-The physics engine for gravity was slightly hacked together--
-there is just a simple acceleration in whatever direction is
-"down" at the time.  Some constants were hand tuned to make
-the game appear to run smoothly.
-
-There was an emphasis on trying to split classes up to only
-manage simple tasks at a time.  This was partially motivated
-by being a first medium sized project using OpenGL.  In
-addition, there was some consideration of expanding this
-project into a full game, so there are several places where
-attempts were made to make the game extendable.
-
 
 
 --Credits--
