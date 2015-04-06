@@ -1,7 +1,6 @@
 Timeline:  Fall 2012
 
 A 3-dimensional platforming game with multiple types of rotations and worlds to explore.
-
 ===============================
 
 The main gimmick of the game is that it provides players with two forms of rotation.  The first allows players to rotate the screen by 90 degrees.  This allows players to reach previously inaccessible areas.  Additionally, gravity will change direction appropriately, which can be used strategically.  The second form of rotation allows the player to change the plane of movement.  Similar to the rotation system in Fez, this action will rotate the camera "around" the player, bringing the foreground and background into reach and vice versa.
@@ -19,7 +18,8 @@ Long-term plans:
 - Gameplay challenges which exploit the rotation system
 - Boss fights which exploit the rotation system
 
---Gameplay--
+Gameplay
+----------------------
 
 Controls:
 Arrow keys - move
@@ -43,7 +43,8 @@ Level 4 is also special in that exits will not appear until all
 of the enemies are destroyed.
 
 
---Credits--
+Credits
+----------------------
 
 The idea for the rotation of the camera to different axes was
 based on Fez by Phil Fish.  I added in the other rotation to
