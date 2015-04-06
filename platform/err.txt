@@ -1,0 +1,123 @@
+[actor.cpp:148] -> [actor.cpp:150]: (performance) Variable 'gravity' is reassigned a value before the old one has been used.
+[actor.cpp:180]: (style) Variable 'camera' is assigned a value that is never used.
+[actor.cpp:343]: (warning) Member variable 'StandActor::m_speed' is not initialized in the constructor.
+[actor.cpp:343]: (warning) Member variable 'StandActor::m_range' is not initialized in the constructor.
+[actor.cpp:348]: (warning) Member variable 'StandActor::m_speed' is not initialized in the constructor.
+[actor.cpp:348]: (warning) Member variable 'StandActor::m_range' is not initialized in the constructor.
+[actor.cpp:435]: (warning) Member variable 'FlyActor::m_speed' is not initialized in the constructor.
+[actor.cpp:435]: (warning) Member variable 'FlyActor::m_range' is not initialized in the constructor.
+[actor.cpp:440]: (warning) Member variable 'FlyActor::m_speed' is not initialized in the constructor.
+[actor.cpp:440]: (warning) Member variable 'FlyActor::m_range' is not initialized in the constructor.
+[vector3d.h:18]: (style) 'vector3d::operator=' should return 'vector3d &'.
+[vector2d.h:22]: (style) 'vector2d::operator=' should return 'vector2d &'.
+[font.h:14]: (performance, inconclusive) Technically the member function 'Font::get_rows' can be static.
+[font.h:15]: (performance, inconclusive) Technically the member function 'Font::get_cols' can be static.
+[actorfactory.cpp:23]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[bullet.cpp:29]: (performance) Possible inefficient checking for 'actors' emptiness.
+[bullet.cpp:23]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[camera.cpp:95]: (style, inconclusive) Statements following return, break, continue, goto or throw will never be executed.
+[convert.c:12]: (warning) scanf without field width limits can crash with huge input data.
+[datamanager.cpp:72] -> [datamanager.h:20]: (performance, inconclusive) Technically the member function 'DataManager::error' can be static.
+[datamanager.cpp:28]: (warning) scanf without field width limits can crash with huge input data.
+[datamanager.cpp:45]: (warning) scanf without field width limits can crash with huge input data.
+[decoration.cpp:56] -> [decoration.h:17]: (performance, inconclusive) Technically the member function 'Decoration::draw' can be static.
+[decoration.cpp:13]: (warning) scanf without field width limits can crash with huge input data.
+[hazardfactory.cpp:21]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[input.cpp:28]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[input.cpp:49]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[input.cpp:103]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[input.cpp:108]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[layout.cpp:16]: (style) C-style pointer casting
+[layout.cpp:59] -> [layout.h:22]: (performance, inconclusive) Technically the member function 'Layout::collides' can be static.
+[layout.h:12]: (style) 'class Layout' does not have a copy constructor which is recommended since the class contains a pointer to allocated memory.
+[layout.cpp:22]: (warning) scanf without field width limits can crash with huge input data.
+[level.h:27]: (style) 'class Level' does not have a copy constructor which is recommended since the class contains a pointer to allocated memory.
+[level.cpp:48]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:50]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:96]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:98]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:100]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:102]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:104]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:116]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:118]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:120]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:122]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:124]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:136]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:139]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:141]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:145]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:153]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:157]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:172]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:181]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:183]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:196]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:199]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:201]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:206]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:214]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:234]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:236]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:239]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:241]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:258]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:262]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:285]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:287]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:291]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:322]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:371]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:382]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:395]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:404]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:419]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:430]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:437]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[level.cpp:453]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[levelreader.cpp:34] -> [levelreader.h:16]: (performance, inconclusive) Technically the member function 'LevelReader::parse' can be static.
+[levelreader.cpp:59]: (warning) scanf without field width limits can crash with huge input data.
+[levelreader.cpp:65]: (warning) scanf without field width limits can crash with huge input data.
+[levelreader.cpp:82]: (warning) scanf without field width limits can crash with huge input data.
+[levelreader.cpp:90]: (warning) scanf without field width limits can crash with huge input data.
+[levelreader.cpp:91]: (warning) scanf without field width limits can crash with huge input data.
+[levelreader.cpp:105]: (warning) scanf without field width limits can crash with huge input data.
+[levelreader.cpp:111]: (warning) scanf without field width limits can crash with huge input data.
+[levelselector.h:8]: (style) 'class LevelSelector' does not have a copy constructor which is recommended since the class contains a pointer to allocated memory.
+[manager.cpp:102] -> [manager.h:19]: (performance, inconclusive) Technically the member function 'Manager::mouse_event' can be static.
+[matlib.cpp:24] -> [matlib.h:15]: (performance, inconclusive) Technically the member function 'MatLib::corrupt' can be static.
+[matlib.cpp:30] -> [matlib.h:16]: (performance, inconclusive) Technically the member function 'MatLib::whitespace' can be static.
+[matlib.cpp:46] -> [matlib.h:18]: (performance, inconclusive) Technically the member function 'MatLib::get_line' can be static.
+[matlib.cpp:20]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[menu.cpp:194]: (style) Variable 'level' is assigned a value that is never used.
+[menu.cpp:242]: (style) Variable 'player' is assigned a value that is never used.
+[menu.cpp:244]: (style) Variable 'level' is assigned a value that is never used.
+[particle.cpp:30] -> [particle.h:20]: (performance, inconclusive) Technically the member function 'Particle::update' can be static.
+[particle.cpp:39] -> [particle.h:22]: (performance, inconclusive) Technically the member function 'Particle::draw' can be static.
+[playerinterface.cpp:20]: (style, inconclusive) Statements following return, break, continue, goto or throw will never be executed.
+[resourcemanager.cpp:72]: (style, inconclusive) Statements following return, break, continue, goto or throw will never be executed.
+[resourcemanager.cpp:68] -> [resourcemanager.h:15]: (performance, inconclusive) Technically the member function 'ResourceManager::play_music' can be static.
+[resourcemanager.cpp:25]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[resourcemanager.cpp:28]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[resourcemanager.cpp:31]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[shape2d.cpp:283]: (style) Consecutive return, break, continue, goto or throw statements are unnecessary.
+[shape3d.cpp:194] -> [shape3d.h:59]: (performance, inconclusive) Technically the member function 'Sphere::para_n' can be static.
+[surface.cpp:28] -> [surface.cpp:32]: (performance) Variable 'color' is reassigned a value before the old one has been used.
+[system.h:13]: (style) 'class System' does not have a copy constructor which is recommended since the class contains a pointer to allocated memory.
+[system.cpp:202]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[system.cpp:206]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[system.cpp:210]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[system.cpp:235]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[system.cpp:239]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[system.cpp:243]: (performance) Prefer prefix ++/-- operators for non-primitive types.
+[terrain.cpp:136] -> [terrain.h:22]: (performance, inconclusive) Technically the member function 'Terrain::collides' can be static.
+[terrain.cpp:87] -> [terrain.h:26]: (performance, inconclusive) Technically the member function 'Terrain::line_fix' can be static.
+[terrainlib.cpp:11] -> [terrainlib.h:14]: (performance, inconclusive) Technically the member function 'TerrainLib::read_terrain' can be static.
+[timer.cpp:61]: (style) The function 'cycles_elapsed' is never used.
+[level.cpp:308]: (style) The function 'get_dims' is never used.
+[surface.cpp:170]: (style) The function 'get_format' is never used.
+[level.cpp:300]: (style) The function 'get_option' is never used.
+[shape2d.cpp:379]: (style) The function 'len' is never used.
+[terrain.cpp:87]: (style) The function 'line_fix' is never used.
+[surface.cpp:201]: (style) The function 'subsurface' is never used.

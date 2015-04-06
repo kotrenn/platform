@@ -1,0 +1,27 @@
+vec	size		5000 480
+vec level_dims	640 480
+int view_dist   10
+str start_level "mario"
+str background	"background_tile.png"
+flt gravity		100
+flt max_grav    40
+flt jump_time	2.0
+flt jump_speed  250
+flt jump_delay	1.6
+flt jump_buffer 0.1
+int player_rad	10
+flt player_speed	20
+int player_health	5
+int player_rate	30
+flt heal_delay_old 0.6
+flt heal_delay 8.0
+flt player_select_delay 0.2
+flt invincible 1.5
+flt respawn_time 3.0       
+flt pbullet_len	30.0
+flt pbullet_speed	6.0
+flt pbullet_delay	0.2
+int num_particles	20
+flt anim_delay      4.0
+int special_power   0
+int special_count   20

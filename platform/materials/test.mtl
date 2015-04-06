@@ -1,0 +1,86 @@
+newmtl purple
+Ka 0.2 0.0 0.2
+Kd 0.8 0.0 0.8
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl dark_blue
+Ka 0 0 0.15
+
+newmtl dark_red
+Ka 0.1 0 0
+
+newmtl sky_blue
+Ka 0.36 0.58 0.99
+
+newmtl brown
+Ka 0.078 0.030 0.005
+Kd 0.78 0.30 0.05
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl pipe
+Ka 0 0.066 0
+Kd 0 0.66 0
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl question
+Ka 0.099 0.060 0.022
+Kd 0.99 0.60 0.22
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl blue
+Ka 0.0 0.0 0.2
+Kd 0.0 0.0 0.8
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl red
+Ka 0.2 0.0 0.0
+Kd 0.8 0.0 0.0
+Ks 0.0 0.0 1.0
+Ns 20
+
+newmtl lava
+Ka 0.2 0.0 0.0
+Kd 0.7 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 10
+
+newmtl actor_player
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl actor_stand
+Ka 0.0 0.2 0.0
+Kd 0.0 0.8 0.2
+Ks 1.0 1.0 1.0
+Ns 50
+
+newmtl actor_fly
+Ka 0.0 0.0 0.2
+Kd 0.0 0.0 0.8
+Ks 1.0 0.0 1.0
+Ns 30
+
+newmtl actor_wall
+Ka 0.2 0.0 0.0
+Kd 0.8 0.0 0.0
+Ks 0.0 0.0 1.0
+Ns 20
+
+newmtl actor_bomb
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 1
+
+newmtl health
+Ka 0.2 0.0 0.0
+Kd 1.0 0.0 0.0
+Ks 0.4 0.4 0.4
+Ns 10

@@ -1,0 +1,256 @@
+dims 10 5 6
+
+mtllib test.mtl
+
+background dark_blue
+
+cell_dims 2 2 2
+
+usemtl purple
+
+
+axis
+  x 1 0 0
+  y 0 0 1
+
+actor fly
+  13 5 9
+  6
+  2
+  0 1 0
+
+actor stand
+  11 5 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+actor stand
+  15 9 7
+  10
+  2
+  1 0 0
+
+layout
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
+XXXXXXXXXX
+XXXX.....X
+XXXX.....X
+XXXX.....X
+XXXXXXXXXX
+
+XXXXX....X
+XXXX.....X
+XXXX.....X
+XXXX.....X
+XXXXXXXXXX
+
+XXXXX....X
+XXXX.....X
+XXXX...X.X
+XXXX.....X
+XXXXXXXXXX
+
+XXXXX....X
+X........X
+X......@.X
+X........X
+XXXXXXXXXX
+
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
